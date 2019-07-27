@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import styled from 'styled-components'
-import posed from 'react-pose';
+import posed from 'react-pose'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,7 +12,7 @@ const BlogLink = styled(Link)`
 
 const BlogTitle = styled.h3`
   margin-bottom: 20px;
-  color: #9A33FF;
+  color: #FF5733;
 `
 
 const Box = posed.div({
@@ -44,11 +44,12 @@ export default ({ data }) => {
                       borderRadius: 10 }}>
             <BlogLink to={node.fields.slug}>
               <BlogTitle>
-                { node.frontmatter.title } - { node.frontmatter.date }
+                { node.frontmatter.title }
               </BlogTitle>
               <p>
                 { node.excerpt }
               </p>
+              { node.frontmatter.date }
             </BlogLink>
           </Box>
         ))

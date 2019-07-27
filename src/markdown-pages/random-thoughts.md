@@ -3,7 +3,7 @@ title: "Random Thoughts"
 date: "2019-07-10"
 ---
 
-###Hashing Algorithm also Pure Function
+###Hashing Algorithm also Pure Function.
 
 Example:
 
