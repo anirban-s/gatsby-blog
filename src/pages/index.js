@@ -3,8 +3,15 @@ import { graphql, Link } from "gatsby"
 import styled from 'styled-components'
 import posed from 'react-pose'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab, faTwitter, faGithub, faFacebook, faLinkedin  } from '@fortawesome/free-brands-svg-icons'
+
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+
+library.add(fab, faTwitter, faGithub, faFacebook, faLinkedin)
 
 const BlogLink = styled(Link)`
   text-decoration: none;
