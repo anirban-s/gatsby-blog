@@ -1,6 +1,6 @@
 ---
 title: "Why I Love Ice Cream"
-date: "2019-07-19"
+date: "2019-07-10"
 ---
 
 ### Ice cream is the best.
