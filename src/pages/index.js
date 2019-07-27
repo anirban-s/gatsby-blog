@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import styled from 'styled-components'
+import posed from 'react-pose';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,6 +15,18 @@ const BlogTitle = styled.h3`
   color: #9A33FF;
 `
 
+const Box = posed.div({
+  hoverable: true,
+  init: {
+    scale:1,
+    boxShadow: "0px 0px 0px rgba(0,0,0,0)"
+  },
+  hover: {
+    scale:1.1,
+    boxShadow: "0px 5px 10px rgba(0,0,0,0.3)"
+  }
+});
+
 export default ({ data }) => {
   console.log(data)
   return (
@@ -23,7 +36,7 @@ export default ({ data }) => {
       <h4>Blog : { data.allMarkdownRemark.totalCount } Posts </h4>
       {
         data.allMarkdownRemark.edges.map(({node}) => (
-          <div key={node.id} style={{
+          <Box key={node.id} style={{
                       border: '1px solid', 
                       padding: 10,
                       backgroundColor: '#DBF7FE', 
@@ -37,7 +50,7 @@ export default ({ data }) => {
                 { node.excerpt }
               </p>
             </BlogLink>
-          </div>
+          </Box>
         ))
       }
     </div>

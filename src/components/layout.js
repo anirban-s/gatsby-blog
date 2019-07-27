@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{ marginTop : 200}}>
+        <footer style={{ marginTop : 100}}>
           <span style={{marginLeft: 850 }}>Created by Anirban Sarkar © {new Date().getFullYear()} </span>
         </footer>
       </div>

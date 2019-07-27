@@ -14,6 +14,5 @@ object oriented programming. These principles are mentioned below.
 5) Dependency Inversion Principle
 
 
-We will discuss in details about each design principle with C# code example.
-This can be implemented in any OOP language.
+We will discuss in details about each design principle with C# code example which can be implemented in any OOP language.
 
