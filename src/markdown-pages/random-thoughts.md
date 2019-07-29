@@ -7,6 +7,6 @@ date: "2019-07-10"
 
 Example:
 
-No matter how much input you give through out the month at your job, you will receive same salary amount as an output which does not make any sence to you.
+No matter how much input you give through out the month at your job, you will receive same salary amount as an output which does not make any sense to you.
 
 
