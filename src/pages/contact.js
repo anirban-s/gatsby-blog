@@ -1,10 +1,12 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const ContactPage = () => (
   <Layout>
+    <SEO title="Contact" />
     <table>
       <tr>
         <td>
@@ -13,6 +15,7 @@ const ContactPage = () => (
           <br></br>
           <br></br>
           <button type='submit'>Submit</button>
+          <br></br>
           <br></br>
           <h4>Follow me on github <a href='https://github.com/anirban-s'>here</a></h4>
         </td>

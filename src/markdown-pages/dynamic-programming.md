@@ -5,7 +5,6 @@ date: "2019-07-27"
 
 ### Dynamic Programming.
 
-In my opinoin, dynamic programming is a very good example of DRY(Do not repeat yourself). It states that, do not calculate in your code if the same operation is already performed. Instead, create a loopup and populate the lookup with calculated value. If the value is required in any future operation, find it in lookup and use the value. 
+In my opinoin, dynamic programming is a very good example of DRY(Do not repeat yourself) principle. It states not to calculate again if the same operation is already performed. Instead, create a lookup and populate the lookup with already calculated values. If the value is required in any future operation, first find it in lookup for its existence. If the value is not present, then perform the operation to calculate the value.
 
-We will discuss an example for nth fibonacci number by recursive way and then by using dynamic programming.
-
+We will discuss with an example of nth fibonacci number by recursive way and then by using dynamic programming to demonstrate the effencency of the dynamic programing. 

@@ -29,7 +29,7 @@ const Box = posed.div({
     boxShadow: "0px 0px 0px rgba(0,0,0,0)"
   },
   hover: {
-    scale:1.1,
+    scale:1,
     boxShadow: "0px 5px 10px rgba(0,0,0,0.3)"
   }
 });
